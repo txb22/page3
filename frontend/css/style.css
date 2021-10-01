@@ -7,7 +7,7 @@ body {
   font-size: 16px;
 }
 @font-face {
-  font-family: SourceSans Pro;
+  font-family: SourceSansPro;
   src: url(../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
 }
 @font-face {
@@ -35,7 +35,7 @@ body {
 }
 
 .title-box {
-  font-family: SourceSans Pro;
+  font-family: SourceSansPro;
   font-style: normal;
   font-weight: 600;
   font-size: 1.5rem;
@@ -43,7 +43,7 @@ body {
   color: #071d61;
 }
 .title_new .text {
-  font-family: SourceSans Pro;
+  font-family: SourceSansPro;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 600;
@@ -80,7 +80,7 @@ body {
   border-top: 1px solid #b0b1b3;
 }
 .title_new-bottom {
-  font-family: SourceSans Pro;
+  font-family: SourceSansPro;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
