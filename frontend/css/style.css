@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 16px;
+}
+@font-face {
+  font-family: SourceSans Pro;
+  src: url(../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: FontAwsome;
+  src: url(../css/fontawesome-free-5.15.4-web/css/all.min.css);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../font/Roboto/Roboto-Medium.ttf);
+}
+.box_top .box-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.box_bottom img {
+  width: 100%;
+}
+.section-all {
+  padding: 2rem 0;
+}
+
+.title-box {
+  font-family: SourceSans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #071d61;
+}
+.title_new .text {
+  font-family: SourceSans Pro;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #252525;
+  text-decoration: none;
+}
+.title_new .text:hover,
+.title_new-bottom:hover {
+  color: #071d61;
+  transition: all 0.3s;
+}
+.box-time {
+  color: #0095da;
+  font-family: Roboto;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+.text-sort {
+  font-size: 0.875rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #454545;
+}
+.box_top {
+  padding-bottom: 1rem;
+}
+.box_bottom {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid #b0b1b3;
+}
+.title_new-bottom {
+  font-family: SourceSans Pro;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #252525;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+}
+.see-more {
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  color: #071d61;
+  text-decoration: none;
+}
+@media (max-width: 1024px) {
+  .title_new-bottom {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .see-more {
+    display: block;
+    text-align: center;
+  }
+}
